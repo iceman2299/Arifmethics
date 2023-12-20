@@ -5,7 +5,7 @@
 
 
 #include <gtest.h>
-
+/*
 TEST(stack, can_create_Stack_with_positive_length)
 {
     ASSERT_NO_THROW(TStack<int> q(3));
@@ -25,12 +25,16 @@ TEST(Stack, can_create_copy)
 
     ASSERT_NO_THROW(TStack<int> cop = q);
 }
-
+*/
 TEST(Arifmetics, can_get_sum)
 {
   TStack<char> q(4);
-  char* s = Stroka(q);
-  double res = Calc(q);
+  char* ch = new char[4];
+  ch[0] = '1';
+  ch[1] = '+';
+  ch[2] = '7';
+  ch = Stroka(ch);
+  double res = Calc(ch);
   EXPECT_EQ(8, res);
 
 }

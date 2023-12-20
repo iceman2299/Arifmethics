@@ -13,7 +13,7 @@ public:
   TStack(int _size = 1);
   TStack(const TStack<T>&);
   ~TStack();
-  void Push(T&);
+  void Push(T);
   T Pull();
   T Top();
   int GetCount();
@@ -62,7 +62,7 @@ TStack<T>::~TStack()
 }
 
 template <class T>
-void TStack<T>::Push(T& a)
+void TStack<T>::Push(T a)
 {
     if (count < size)
     {

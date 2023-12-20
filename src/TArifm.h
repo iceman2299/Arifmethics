@@ -14,7 +14,6 @@ int Prior(char c)
     throw "Invalid operator";
 }
 
-
 char* Stroka(char* s)
 {
   TStack<char> l;
