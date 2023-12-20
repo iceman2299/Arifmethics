@@ -1,0 +1,5 @@
+D:/Сортировка/Файлы/Учебное/Проги/Arifmethics/build/CMakeFiles/ALL_BUILD.dir
+D:/Сортировка/Файлы/Учебное/Проги/Arifmethics/build/CMakeFiles/ZERO_CHECK.dir
+D:/Сортировка/Файлы/Учебное/Проги/Arifmethics/build/src/CMakeFiles/Arifmethics.dir
+D:/Сортировка/Файлы/Учебное/Проги/Arifmethics/build/gtest/CMakeFiles/gtest.dir
+D:/Сортировка/Файлы/Учебное/Проги/Arifmethics/build/test/CMakeFiles/test_Arifmethics.dir
